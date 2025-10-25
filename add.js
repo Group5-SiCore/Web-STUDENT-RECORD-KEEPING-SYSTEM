@@ -28,8 +28,9 @@ function addStudent(){
         if(response.status=="ok"){
             window.location.href="table.php";
         }else{
-            alert("issues");
+            alert("Have an issues");
         
         }
     })
+
 }
