@@ -13,7 +13,7 @@
 	<?session_start();
 	?>
 		<div class="login-box">
-			<h1>WELCOME TO <br>STUDENT RECORD KEEPING SYSTEM</h1>
+			<h1>WELCOME TO <br>STUDENT RECORD SYSTEM</h1>
 
 			<div class="textbox">
 				<i class="fa fa-user" aria-hidden="true"></i>
@@ -51,7 +51,7 @@ if(isset($_SESSION['msg'])){?>
 <style type="text/css">
 					
 					.button {
-	 font-size: 17px;
+	 font-size: 20px;
 	 padding: 0.5em 2em;
 	 border: transparent;
 	 box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
@@ -77,4 +77,5 @@ if(isset($_SESSION['msg'])){?>
 
 }
 									
+
 	
